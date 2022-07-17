@@ -2,6 +2,9 @@
 ## Usage
 ```typescript
 import colors from "https://deno.land/x/console_colors/mod.ts";
-colors();
+colors;
 console.log("color red".red);
 ```
+
+## TODO
++ log decorator
