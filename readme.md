@@ -6,5 +6,9 @@ colors;
 console.log("color red".red);
 ```
 
+## License
++ MIT License
+
 ## TODO
 + log decorator
++ delete properties when building production (unmount code)

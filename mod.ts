@@ -1,11 +1,11 @@
 const reset = "\x1b[0m";
 const source = {
     text_bold: "\x1b[1m",
-    dim: "\x1b[2m",
-    underscore: "\x1b[4m",
-    blink: "\x1b[5m",
-    reverse: "\x1b[7m",
-    hidden: "\x1b[8m",
+    text_dim: "\x1b[2m",
+    text_underscore: "\x1b[4m",
+    text_blink: "\x1b[5m",
+    text_reverse: "\x1b[7m",
+    text_hidden: "\x1b[8m",
 
     black: "\x1b[30m",
     red: "\x1b[31m",
@@ -44,7 +44,12 @@ declare global {
         bg_magenta: string;
         bg_cyan: string;
         bg_white: string;
-        text_bold: string
+        text_bold: string;
+        text_dim: string,
+        text_underscore: string,
+        text_blink: string,
+        text_reverse: string,
+        text_hidden: string,
     }
 }
 
